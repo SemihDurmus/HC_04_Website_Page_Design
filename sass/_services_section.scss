@@ -1,0 +1,91 @@
+main {
+    height: 90vh;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    background-color: $backgroundColor;
+    padding-top:1rem;
+
+
+    #services_left {
+        width: 55%;
+        margin-left: 10rem;
+
+        p {
+            font-size: 1.8rem;
+            font-weight: bold;
+            margin-top:2rem;
+        }
+        
+        .service_box {
+            width: 100%;
+            background-color: $serviceBoxBackgroundColor;
+            box-sizing: border-box;
+            padding: 2.5rem 2rem; 
+            border: 1px solid #8395a7;
+            margin-bottom: 0.5rem;
+
+            p {
+                &:first-of-type {
+                font-size: 1.8rem;
+                font-weight: bold;
+                }
+
+                &:nth-of-type(2),
+                &:nth-of-type(3) {
+                    font-size: 1.6rem;
+                    font-weight: normal;
+                }
+
+            }
+        }
+    }
+
+    #services_right {
+        width : 25%;
+        margin-right: 10rem;
+        margin-top: 2rem;
+        color: #FFFFFF;
+        background-color: $headerBackgroundColor;
+        font-size: 1.5rem;
+        box-sizing: border-box;
+        padding: 2rem 2rem 1.5rem 1.5rem;
+
+        p {
+            font-size: 1.8rem;
+            font-weight: bold;            
+        }
+        
+        #name,
+        #email,
+        #message {
+            margin-bottom: 0.4rem;
+            margin-top: 0.4rem;
+            width: 90%;
+            height: 2.5rem;
+            padding-left: 0.7rem;
+        }
+
+        #message {
+            height: 6rem;
+        }
+
+        #send {
+            cursor: pointer;
+            box-sizing: border-box;
+            border: none;
+            color: #FFFFFF;
+            font-size: 1.6rem;
+            height: 3.5rem;
+            background-color: $emphasizeColor;
+            padding-left: 1.5rem;
+            padding-right: 1.5rem;
+
+            &:hover {
+                background-color: #FFFFFF;
+                color: $emphasizeColor;
+            }
+        }
+    }
+}
+

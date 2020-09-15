@@ -449,10 +449,11 @@ footer img {
   height: 3.5rem;
   width: 26rem;
   font-size: 1.3rem;
-  padding-left: 0.5rem;
+  padding-left: 1rem;
 }
 
 #newsletter #subscribe_btn {
+  cursor: pointer;
   margin-right: 10rem;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -463,6 +464,11 @@ footer img {
   background-color: #A9508A;
   padding-left: 1.5rem;
   padding-right: 1.5rem;
+}
+
+#newsletter #subscribe_btn:hover {
+  color: #A9508A;
+  background-color: #FFFFFF;
 }
 
 #icons_section {

@@ -449,10 +449,11 @@ footer img {
   height: 3.5rem;
   width: 26rem;
   font-size: 1.3rem;
-  padding-left: 0.5rem;
+  padding-left: 1rem;
 }
 
 #newsletter #subscribe_btn {
+  cursor: pointer;
   margin-right: 10rem;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -465,7 +466,107 @@ footer img {
   padding-right: 1.5rem;
 }
 
+#newsletter #subscribe_btn:hover {
+  color: #A9508A;
+  background-color: #FFFFFF;
+}
+
 header ul li span {
+  color: #A9508A;
+}
+
+main {
+  height: 90vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: #F4F4F4;
+  padding-top: 1rem;
+}
+
+main #services_left {
+  width: 55%;
+  margin-left: 10rem;
+}
+
+main #services_left p {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-top: 2rem;
+}
+
+main #services_left .service_box {
+  width: 100%;
+  background-color: #E6E6E6;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 2.5rem 2rem;
+  border: 1px solid #8395a7;
+  margin-bottom: 0.5rem;
+}
+
+main #services_left .service_box p:first-of-type {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+main #services_left .service_box p:nth-of-type(2), main #services_left .service_box p:nth-of-type(3) {
+  font-size: 1.6rem;
+  font-weight: normal;
+}
+
+main #services_right {
+  width: 25%;
+  margin-right: 10rem;
+  margin-top: 2rem;
+  color: #FFFFFF;
+  background-color: #35434A;
+  font-size: 1.5rem;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 2rem 2rem 1.5rem 1.5rem;
+}
+
+main #services_right p {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+main #services_right #name,
+main #services_right #email,
+main #services_right #message {
+  margin-bottom: 0.4rem;
+  margin-top: 0.4rem;
+  width: 90%;
+  height: 2.5rem;
+  padding-left: 0.7rem;
+}
+
+main #services_right #message {
+  height: 6rem;
+}
+
+main #services_right #send {
+  cursor: pointer;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: none;
+  color: #FFFFFF;
+  font-size: 1.6rem;
+  height: 3.5rem;
+  background-color: #A9508A;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+main #services_right #send:hover {
+  background-color: #FFFFFF;
   color: #A9508A;
 }
 /*# sourceMappingURL=style_services.css.map */
