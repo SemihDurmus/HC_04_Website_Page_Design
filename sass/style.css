@@ -384,6 +384,10 @@ header ul li {
   padding: 2rem;
 }
 
+header ul li:last-of-type {
+  padding-right: 0;
+}
+
 header ul li a {
   text-decoration: none;
   font-size: 1.6rem;
@@ -555,5 +559,6 @@ header ul li span {
   font-size: 2rem;
   margin-top: 2rem;
   text-align: center;
+  line-height: 3.5rem;
 }
 /*# sourceMappingURL=style.css.map */

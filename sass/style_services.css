@@ -384,6 +384,10 @@ header ul li {
   padding: 2rem;
 }
 
+header ul li:last-of-type {
+  padding-right: 0;
+}
+
 header ul li a {
   text-decoration: none;
   font-size: 1.6rem;

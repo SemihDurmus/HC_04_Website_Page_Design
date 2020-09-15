@@ -384,6 +384,10 @@ header ul li {
   padding: 2rem;
 }
 
+header ul li:last-of-type {
+  padding-right: 0;
+}
+
 header ul li a {
   text-decoration: none;
   font-size: 1.6rem;
@@ -466,6 +470,73 @@ header ul li span {
 }
 
 main {
-  height: 80vh;
+  height: 75vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: #F4F4F4;
+  padding-top: 1rem;
+}
+
+main #about_left {
+  width: 55%;
+  height: 100%;
+  margin-left: 10rem;
+}
+
+main #about_left p:first-of-type {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+main #about_left p:nth-of-type(2), main #about_left p:last-of-type {
+  font-size: 1.5rem;
+  line-height: 3rem;
+  text-align: justify;
+  margin-bottom: 2rem;
+}
+
+main #about_left p:last-of-type {
+  color: #FFFFFF;
+  background-color: #35434A;
+  padding: 1.5rem;
+}
+
+main #about_right {
+  width: 25%;
+  height: 100%;
+  margin-right: 10rem;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: #FFFFFF;
+}
+
+main #about_right p {
+  padding-right: 2rem;
+  padding-left: 2rem;
+}
+
+main #about_right p:first-of-type {
+  font-size: 1.8rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  font-weight: bold;
+  background-color: #35434A;
+  margin-bottom: 0;
+}
+
+main #about_right p:last-of-type {
+  font-size: 1.5rem;
+  background-color: #35434A;
+  margin-top: 0;
+  text-align: justify;
+  line-height: 3rem;
+  padding-bottom: 2rem;
 }
 /*# sourceMappingURL=style_about.css.map */
