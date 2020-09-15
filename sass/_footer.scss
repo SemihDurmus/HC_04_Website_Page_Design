@@ -1,0 +1,18 @@
+footer {
+    width: 100%;
+    background-color: $footerBackgroundColor;
+    border-top: .4rem solid $emphasizeColor;
+    text-align: center;
+
+
+    p {
+        font-size: 1.5rem;
+
+
+    }
+
+    img {
+        width: 20rem;
+        margin-bottom: 2rem;
+    }
+}

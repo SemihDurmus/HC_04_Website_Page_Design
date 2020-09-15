@@ -1,0 +1,44 @@
+header {
+    width: 100%;
+    min-height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    background-color: $headerBackgroundColor;
+    box-sizing: border-box;
+    padding-right: 10rem;
+    padding-left: 10rem;
+    color: #FFFFFF;
+    border-bottom: .4rem solid $emphasizeColor;
+
+    p {
+        font-size: 3rem;
+        font-weight: bold;
+        span {
+            color: $emphasizeColor;
+        }
+    }
+
+    ul {
+        list-style-type: none;
+        line-height: 4rem;
+        li {
+            display: inline-block;
+            padding: 2rem;          
+            a {
+                text-decoration: none;
+                font-size: 1.6rem;
+                font-weight: bold;
+                color: #FFFFFF;
+
+                &:hover {
+                    color: $linkHoverColor;
+                }
+
+                &:active {
+                    color: $emphasizeColor;
+                }
+            }
+        }
+    }
+}

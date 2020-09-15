@@ -1,0 +1,14 @@
+@import "normalize";
+@import "globals";
+
+@import "header";
+@import "footer";
+@import "subscribe";
+@import "iconsarea";
+
+header ul li span {
+    color: $emphasizeColor;
+}
+
+@import "hero";
+
