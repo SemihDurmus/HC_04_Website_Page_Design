@@ -403,6 +403,57 @@ header ul li a:active {
   color: #A9508A;
 }
 
+header #hamburger {
+  margin: auto 0;
+  vertical-align: middle;
+  display: inline-block;
+  display: none;
+}
+
+@media screen and (min-width: 769px) and (max-width: 900px) {
+  header ul {
+    display: none;
+  }
+  header #hamburger {
+    display: inline-block;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  header {
+    padding-right: 2rem;
+    padding-left: 2rem;
+  }
+  header p {
+    font-size: 2rem;
+  }
+  header ul {
+    display: none;
+  }
+  header #hamburger {
+    display: inline-block;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  header {
+    padding-right: 2rem;
+    padding-left: 2rem;
+  }
+  header p {
+    font-size: 2rem;
+  }
+  header ul {
+    display: none;
+  }
+  header #hamburger {
+    display: inline-block;
+  }
+  header #hamburger img {
+    height: 30px;
+  }
+}
+
 footer {
   width: 100%;
   background-color: #FFFAF0;

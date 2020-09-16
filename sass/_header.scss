@@ -9,7 +9,7 @@ header {
     padding-right: 10rem;
     padding-left: 10rem;
     color: #FFFFFF;
-    border-bottom: .4rem solid $emphasizeColor;
+    border-bottom: 0.4rem solid $emphasizeColor;
 
     p {
         font-size: 3rem;
@@ -43,7 +43,67 @@ header {
                     color: $emphasizeColor;
                 }
 
+            }
+        }
+    }
 
+    #hamburger {
+        margin: auto 0;
+        vertical-align: middle;        
+        display: inline-block;
+        display : none;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 900px){
+
+    header {
+        ul {
+            display:none;
+        }
+        #hamburger {
+            display: inline-block;
+        }
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px){
+
+    header {
+
+        p {
+            font-size: 2rem;
+        }
+
+        padding-right: 2rem;
+        padding-left: 2rem;
+        ul {
+            display:none;
+        }
+        #hamburger {
+            display: inline-block;
+        }
+    }
+}
+
+@media screen and (max-width: 480px){
+
+    header {
+
+        p {
+            font-size: 2rem;
+        }
+
+        padding-right: 2rem;
+        padding-left: 2rem;
+        ul {
+            display:none;
+        }
+        #hamburger {
+            display: inline-block;
+
+            img {
+                height: 30px;
             }
         }
     }
