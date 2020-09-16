@@ -415,6 +415,9 @@ header #hamburger img {
 }
 
 @media screen and (min-width: 769px) and (max-width: 900px) {
+  header p {
+    line-height: 40px;
+  }
   header ul {
     display: none;
   }
@@ -433,6 +436,7 @@ header #hamburger img {
   }
   header p {
     font-size: 2rem;
+    line-height: 40px;
   }
   header ul {
     display: none;
@@ -448,9 +452,8 @@ header #hamburger img {
     padding-left: 2rem;
   }
   header p {
-    font-size: 1.5rem;
-    display: inline-block;
-    vertical-align: middle;
+    font-size: 1.7rem;
+    line-height: 3rem;
   }
   header ul {
     display: none;
@@ -716,5 +719,113 @@ main #services_right #send {
 main #services_right #send:hover {
   background-color: #FFFFFF;
   color: #A9508A;
+}
+
+@media screen and (min-width: 900px) and (max-width: 1300px) {
+  main {
+    height: auto;
+  }
+  main #services_left {
+    width: 45%;
+    margin-left: 7rem;
+  }
+  main #services_left .service_box p:nth-of-type(2) {
+    text-align: justify;
+  }
+  main #services_right {
+    width: 32%;
+    margin-right: 7rem;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 899px) {
+  main {
+    height: auto;
+  }
+  main #services_left {
+    width: 45%;
+    margin-left: 6rem;
+  }
+  main #services_left .service_box p:nth-of-type(2) {
+    text-align: justify;
+  }
+  main #services_right {
+    width: 32%;
+    margin-right: 6rem;
+  }
+}
+
+@media screen and (min-width: 620px) and (max-width: 768px) {
+  main {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    height: auto;
+    padding-right: 5rem;
+    padding-left: 5rem;
+  }
+  main #services_left {
+    width: 80%;
+    margin-left: 0;
+  }
+  main #services_left p:first-of-type {
+    text-align: center;
+  }
+  main #services_left .service_box p:nth-of-type(2) {
+    text-align: justify;
+  }
+  main #services_right {
+    width: 80%;
+    margin-right: 0;
+    margin-bottom: 3rem;
+  }
+  main #services_right p {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 619px) {
+  main {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    height: auto;
+    padding: 1rem 0 0 0;
+  }
+  main #services_left {
+    width: 90%;
+    margin-left: 0;
+  }
+  main #services_left p:first-of-type {
+    text-align: center;
+  }
+  main #services_left .service_box {
+    margin-bottom: 2rem;
+  }
+  main #services_left .service_box p:nth-of-type(2) {
+    text-align: justify;
+  }
+  main #services_right {
+    width: 90%;
+    margin-right: 0;
+    margin-bottom: 3rem;
+  }
+  main #services_right p {
+    text-align: center;
+  }
 }
 /*# sourceMappingURL=style_services.css.map */

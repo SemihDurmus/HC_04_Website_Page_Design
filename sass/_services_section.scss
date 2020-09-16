@@ -89,3 +89,127 @@ main {
     }
 }
 
+@media screen and (min-width: 900px) and (max-width: 1300px) {
+    main {
+        height: auto;
+        #services_left {
+            width: 45%;
+            margin-left: 7rem;
+
+            .service_box {
+                p {
+                    &:nth-of-type(2) {
+                        text-align: justify;
+                    }
+                }
+            }
+        }
+
+        #services_right {
+            width: 32%;
+            margin-right: 7rem;
+        }
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 899px) {
+    main {
+        height: auto;
+        #services_left {
+            width: 45%;
+            margin-left: 6rem;
+
+            .service_box {
+                p {
+                    &:nth-of-type(2) {
+                        text-align: justify;
+                    }
+                }
+            }
+        }
+
+        #services_right {
+            width: 32%;
+            margin-right: 6rem;
+        }
+    }
+}
+
+@media screen and (min-width:620px) and (max-width: 768px) {
+    main {
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        height: auto;
+        padding-right: 5rem;
+        padding-left: 5rem;
+
+        #services_left {
+
+            p {
+                &:first-of-type{
+                text-align: center;
+                }
+            }
+            width: 80%;
+            margin-left: 0;
+
+            .service_box {
+                p {
+                    &:nth-of-type(2) {
+                        text-align: justify;
+                    }
+                }
+            }
+        }
+
+        #services_right {
+            p{
+                text-align: center;
+            }
+            width: 80%;
+            margin-right: 0;
+            margin-bottom: 3rem;;
+        }
+    }
+}
+
+@media screen and (max-width: 619px) {
+    main {
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        height: auto;
+        padding: 1rem 0 0 0;
+
+        #services_left {
+            width: 90%;
+            margin-left: 0;
+
+            p {
+                &:first-of-type{
+                text-align: center;
+                }
+            }
+
+            .service_box {
+                margin-bottom: 2rem;
+
+                p {
+                    &:nth-of-type(2) {
+                        text-align: justify;
+                    }
+                }
+            }
+        }
+
+        #services_right {
+            p{
+                text-align: center;
+            }
+            width: 90%;
+            margin-right: 0;
+            margin-bottom: 3rem;;
+        }
+    }
+}

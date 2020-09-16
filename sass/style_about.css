@@ -415,6 +415,9 @@ header #hamburger img {
 }
 
 @media screen and (min-width: 769px) and (max-width: 900px) {
+  header p {
+    line-height: 40px;
+  }
   header ul {
     display: none;
   }
@@ -433,6 +436,7 @@ header #hamburger img {
   }
   header p {
     font-size: 2rem;
+    line-height: 40px;
   }
   header ul {
     display: none;
@@ -448,9 +452,8 @@ header #hamburger img {
     padding-left: 2rem;
   }
   header p {
-    font-size: 1.5rem;
-    display: inline-block;
-    vertical-align: middle;
+    font-size: 1.7rem;
+    line-height: 3rem;
   }
   header ul {
     display: none;
@@ -692,5 +695,67 @@ main #about_right p:last-of-type {
   text-align: justify;
   line-height: 3rem;
   padding-bottom: 2rem;
+}
+
+@media screen and (min-width: 901px) and (max-width: 1080px) {
+  main #about_left {
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 900px) {
+  html {
+    font-size: 9px;
+  }
+  main #about_left {
+    width: 47%;
+  }
+}
+
+@media screen and (min-width: 631px) and (max-width: 768px) {
+  html {
+    font-size: 9px;
+  }
+  main #about_left {
+    width: 53%;
+    margin-left: 3rem;
+  }
+  main #about_right {
+    width: 30%;
+    margin-right: 3rem;
+  }
+}
+
+@media screen and (max-width: 630px) {
+  html {
+    font-size: 9px;
+  }
+  main {
+    height: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  main #about_left {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    margin: 0;
+    padding: 0 3rem;
+    width: 100%;
+  }
+  main #about_right {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    margin: 0;
+    padding: 0 3rem;
+    width: 100%;
+  }
 }
 /*# sourceMappingURL=style_about.css.map */

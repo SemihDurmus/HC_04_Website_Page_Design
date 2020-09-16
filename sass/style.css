@@ -415,6 +415,9 @@ header #hamburger img {
 }
 
 @media screen and (min-width: 769px) and (max-width: 900px) {
+  header p {
+    line-height: 40px;
+  }
   header ul {
     display: none;
   }
@@ -433,6 +436,7 @@ header #hamburger img {
   }
   header p {
     font-size: 2rem;
+    line-height: 40px;
   }
   header ul {
     display: none;
@@ -448,9 +452,8 @@ header #hamburger img {
     padding-left: 2rem;
   }
   header p {
-    font-size: 1.5rem;
-    display: inline-block;
-    vertical-align: middle;
+    font-size: 1.7rem;
+    line-height: 3rem;
   }
   header ul {
     display: none;
@@ -759,6 +762,7 @@ header ul li span {
   padding: 10rem;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  border-bottom: 1px solid #FFFFFF;
 }
 
 #hero p {
