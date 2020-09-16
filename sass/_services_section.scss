@@ -1,5 +1,5 @@
 main {
-    height: 90vh;
+    height: auto;
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
@@ -24,6 +24,10 @@ main {
             padding: 2.5rem 2rem; 
             border: 1px solid #8395a7;
             margin-bottom: 0.5rem;
+
+            &:last-of-type {
+                margin-bottom: 2rem;
+            }
 
             p {
                 &:first-of-type {
@@ -91,7 +95,7 @@ main {
 
 @media screen and (min-width: 900px) and (max-width: 1300px) {
     main {
-        height: auto;
+
         #services_left {
             width: 45%;
             margin-left: 7rem;
@@ -114,7 +118,6 @@ main {
 
 @media screen and (min-width: 769px) and (max-width: 899px) {
     main {
-        height: auto;
         #services_left {
             width: 45%;
             margin-left: 6rem;
@@ -140,7 +143,6 @@ main {
         flex-direction: column;
         align-items: center;
         justify-content: flex-start;
-        height: auto;
         padding-right: 5rem;
         padding-left: 5rem;
 
@@ -179,7 +181,6 @@ main {
         flex-direction: column;
         align-items: center;
         justify-content: flex-start;
-        height: auto;
         padding: 1rem 0 0 0;
 
         #services_left {

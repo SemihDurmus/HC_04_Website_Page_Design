@@ -654,7 +654,7 @@ header ul li span {
 }
 
 main {
-  height: 90vh;
+  height: auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -687,6 +687,10 @@ main #services_left .service_box {
   padding: 2.5rem 2rem;
   border: 1px solid #8395a7;
   margin-bottom: 0.5rem;
+}
+
+main #services_left .service_box:last-of-type {
+  margin-bottom: 2rem;
 }
 
 main #services_left .service_box p:first-of-type {
@@ -749,9 +753,6 @@ main #services_right #send:hover {
 }
 
 @media screen and (min-width: 900px) and (max-width: 1300px) {
-  main {
-    height: auto;
-  }
   main #services_left {
     width: 45%;
     margin-left: 7rem;
@@ -766,9 +767,6 @@ main #services_right #send:hover {
 }
 
 @media screen and (min-width: 769px) and (max-width: 899px) {
-  main {
-    height: auto;
-  }
   main #services_left {
     width: 45%;
     margin-left: 6rem;
@@ -794,7 +792,6 @@ main #services_right #send:hover {
     -webkit-box-pack: start;
         -ms-flex-pack: start;
             justify-content: flex-start;
-    height: auto;
     padding-right: 5rem;
     padding-left: 5rem;
   }
@@ -830,7 +827,6 @@ main #services_right #send:hover {
     -webkit-box-pack: start;
         -ms-flex-pack: start;
             justify-content: flex-start;
-    height: auto;
     padding: 1rem 0 0 0;
   }
   main #services_left {

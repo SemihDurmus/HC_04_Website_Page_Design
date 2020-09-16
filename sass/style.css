@@ -726,7 +726,7 @@ footer img {
 
 @media screen and (max-width: 480px) {
   #icons_section {
-    padding-top: 1.5rem;
+    padding: 1.5rem 0;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -742,12 +742,16 @@ footer img {
     margin-right: 0;
   }
   #icons_section .small_box {
-    width: 100%;
-    padding-right: 10%;
-    padding-left: 10%;
+    width: 90%;
+    padding: 10%;
     margin-bottom: 2rem;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
+    background-color: #ecf0f1;
+  }
+  #icons_section .small_box:hover {
+    -webkit-box-shadow: 0 0 7px #000;
+            box-shadow: 0 0 7px #000;
   }
   #icons_section .small_box img {
     width: 8rem;
