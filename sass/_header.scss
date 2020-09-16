@@ -14,6 +14,7 @@ header {
     p {
         font-size: 3rem;
         font-weight: bold;
+       
         span {
             color: $emphasizeColor;
         }
@@ -52,6 +53,9 @@ header {
         vertical-align: middle;        
         display: inline-block;
         display : none;
+        img {
+            height: 40px;
+        }
     }
 }
 
@@ -63,6 +67,11 @@ header {
         }
         #hamburger {
             display: inline-block;
+
+            img {
+                height: 40px;
+            }
+
         }
     }
 }
@@ -70,13 +79,13 @@ header {
 @media screen and (min-width: 481px) and (max-width: 768px){
 
     header {
+        padding-right: 2rem;
+        padding-left: 2rem;
 
         p {
             font-size: 2rem;
         }
 
-        padding-right: 2rem;
-        padding-left: 2rem;
         ul {
             display:none;
         }
@@ -89,13 +98,16 @@ header {
 @media screen and (max-width: 480px){
 
     header {
-
-        p {
-            font-size: 2rem;
-        }
-
         padding-right: 2rem;
         padding-left: 2rem;
+
+        p {
+            font-size: 1.5rem;
+            display: inline-block;
+            vertical-align: middle;
+
+        }
+
         ul {
             display:none;
         }

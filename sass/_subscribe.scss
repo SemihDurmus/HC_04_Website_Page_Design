@@ -2,13 +2,11 @@
     width: 100%;
     display:flex;
     align-items: center;
-    justify-content: space-between ;
+    justify-content: space-between;
     background-color: #35434A;
     color: #FFFFFF;
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
-
-
 
     p {
         font-size: 2.2rem;
@@ -19,10 +17,10 @@
 
     #input_box {
         box-sizing: border-box;
-         height: 3.5rem;
-         width: 26rem;
-         font-size: 1.3rem;
-         padding-left: 1rem;
+        height: 3.5rem;
+        width: 26rem;
+        font-size: 1.3rem;
+        padding-left: 1rem;
     }
 
     #subscribe_btn {
@@ -42,6 +40,77 @@
             background-color: #FFFFFF;
         }
     }
+}
 
 
+@media screen and (min-width: 769px) and (max-width: 900px){
+    #newsletter {
+        p {
+            font-size: 1.9rem;
+        }
+        #input_box {
+            width: 18rem;
+            font-size: 1.3rem;
+            padding-left: 1rem;
+        }
+
+        #subscribe_btn {
+            font-size: 1.4rem;
+            padding-left: 1.2rem;
+            padding-right: 1.2rem;
+        }
+    }
+}
+
+
+@media screen and (min-width: 481px) and (max-width: 768px){
+    #newsletter {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-top: 0;
+
+        p {
+            font-size: 1.9rem;
+            margin-left:0;
+        }
+        #input_box {
+            width: 18rem;
+            font-size: 1.3rem;
+            padding-left: 1rem;
+        }
+
+        #subscribe_btn {
+            font-size: 1.4rem;
+            padding-left: 1.2rem;
+            padding-right: 1.2rem;
+            margin-right:0;
+        }
+    }
+}
+
+@media screen and (max-width: 480px){
+    #newsletter {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-top: 0;
+
+        p {
+            font-size: 1.6rem;
+            margin-left:0;
+        }
+        #input_box {
+            width: 18rem;
+            font-size: 1.3rem;
+            padding-left: 1rem;
+        }
+
+        #subscribe_btn {
+            font-size: 1.4rem;
+            padding-left: 1.2rem;
+            padding-right: 1.2rem;
+            margin-right:0;
+        }
+    }
 }
