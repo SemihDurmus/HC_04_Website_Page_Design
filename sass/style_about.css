@@ -731,18 +731,12 @@ main #about_right p:last-of-type {
 }
 
 @media screen and (min-width: 769px) and (max-width: 900px) {
-  html {
-    font-size: 9px;
-  }
   main #about_left {
     width: 47%;
   }
 }
 
 @media screen and (min-width: 631px) and (max-width: 768px) {
-  html {
-    font-size: 9px;
-  }
   main {
     height: auto;
   }

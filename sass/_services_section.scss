@@ -186,12 +186,6 @@ main {
             width: 90%;
             margin-left: 0;
 
-            p {
-                &:first-of-type{
-                text-align: center;
-                }
-            }
-
             .service_box {
                 margin-bottom: 2rem;
 
@@ -204,9 +198,6 @@ main {
         }
 
         #services_right {
-            p{
-                text-align: center;
-            }
             width: 90%;
             margin-right: 0;
             margin-bottom: 3rem;;
