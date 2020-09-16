@@ -757,9 +757,6 @@ main #about_right p:last-of-type {
 }
 
 @media screen and (max-width: 630px) {
-  html {
-    font-size: 9px;
-  }
   main {
     height: auto;
     display: -webkit-box;
