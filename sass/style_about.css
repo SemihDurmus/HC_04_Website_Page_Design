@@ -716,6 +716,9 @@ main #about_right p:last-of-type {
   html {
     font-size: 9px;
   }
+  main {
+    height: auto;
+  }
   main #about_left {
     width: 53%;
     margin-left: 3rem;
