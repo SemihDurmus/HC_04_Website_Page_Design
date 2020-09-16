@@ -345,6 +345,7 @@ template {
 }
 
 header {
+  position: relative;
   width: 100%;
   min-height: 70px;
   display: -webkit-box;
@@ -410,8 +411,28 @@ header #hamburger {
   display: none;
 }
 
-header #hamburger img {
-  height: 40px;
+header #myLinks {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  width: 100%;
+  display: none;
+}
+
+header #myLinks a {
+  background-color: #35434A;
+  color: #F4F4F4;
+  display: block;
+  font-size: 2rem;
+  height: 3.5rem;
+  line-height: 3.5rem;
+  text-align: center;
+  text-decoration: none;
+  border-bottom: 0.1rem solid #A9508A;
+}
+
+header #myLinks a:first-of-type {
+  border-top: 0.1rem solid #A9508A;
 }
 
 @media screen and (min-width: 769px) and (max-width: 900px) {
@@ -424,8 +445,8 @@ header #hamburger img {
   header #hamburger {
     display: inline-block;
   }
-  header #hamburger img {
-    height: 40px;
+  header #hamburger .fa-bars {
+    font-size: 3rem;
   }
 }
 
@@ -444,6 +465,9 @@ header #hamburger img {
   header #hamburger {
     display: inline-block;
   }
+  header #hamburger .fa-bars {
+    font-size: 3rem;
+  }
 }
 
 @media screen and (max-width: 480px) {
@@ -461,8 +485,11 @@ header #hamburger img {
   header #hamburger {
     display: inline-block;
   }
-  header #hamburger img {
-    height: 30px;
+  header #hamburger .fa-bars {
+    font-size: 2.3rem;
+  }
+  header #myLinks a {
+    font-size: 1.3rem;
   }
 }
 
