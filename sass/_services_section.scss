@@ -6,7 +6,6 @@ main {
     background-color: $backgroundColor;
     padding-top:1rem;
 
-
     #services_left {
         width: 55%;
         margin-left: 10rem;
@@ -40,7 +39,6 @@ main {
                     font-size: 1.6rem;
                     font-weight: normal;
                 }
-
             }
         }
     }
@@ -101,6 +99,7 @@ main {
             margin-left: 7rem;
 
             .service_box {
+
                 p {
                     &:nth-of-type(2) {
                         text-align: justify;
@@ -118,6 +117,7 @@ main {
 
 @media screen and (min-width: 769px) and (max-width: 899px) {
     main {
+
         #services_left {
             width: 45%;
             margin-left: 6rem;
@@ -139,6 +139,7 @@ main {
 }
 
 @media screen and (min-width:620px) and (max-width: 768px) {
+
     main {
         flex-direction: column;
         align-items: center;
@@ -147,14 +148,14 @@ main {
         padding-left: 5rem;
 
         #services_left {
+            width: 80%;
+            margin-left: 0;
 
             p {
                 &:first-of-type{
                 text-align: center;
                 }
             }
-            width: 80%;
-            margin-left: 0;
 
             .service_box {
                 p {
@@ -166,12 +167,13 @@ main {
         }
 
         #services_right {
-            p{
-                text-align: center;
-            }
             width: 80%;
             margin-right: 0;
             margin-bottom: 3rem;;
+
+            p{
+                text-align: center;
+            }
         }
     }
 }

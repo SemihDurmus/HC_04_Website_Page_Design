@@ -15,7 +15,7 @@ header {
     p {
         font-size: 3rem;
         font-weight: bold;
-       
+
         span {
             color: $emphasizeColor;
         }
@@ -31,6 +31,7 @@ header {
             &:last-of-type {
                 padding-right:0;
             }
+
             a {
                 text-decoration: none;
                 font-size: 1.6rem;
@@ -44,7 +45,6 @@ header {
                 &:active {
                     color: $emphasizeColor;
                 }
-
             }
         }
     }
@@ -148,6 +148,7 @@ header {
         }
 
         #myLinks {
+            
             a {
                 font-size: 1.3rem;
             }
