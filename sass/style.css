@@ -764,6 +764,10 @@ footer img {
     font-size: 1.4rem;
     text-align: justify;
     width: 100%;
+    display: none;
+  }
+  #icons_section .small_box .showDescription {
+    display: block;
   }
 }
 
