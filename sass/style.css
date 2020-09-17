@@ -856,15 +856,4 @@ header ul li span {
     line-height: 2.5rem;
   }
 }
-
-@media(max-width:400px){
-  .small_box .description{
-    display: none;
-  }
-
-  .small_box .showDescription{
-    display:block;
-  }
-}
-
 /*# sourceMappingURL=style.css.map */
