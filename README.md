@@ -1,6 +1,6 @@
 # Project-003 : Website Page Design (HC-04)
 
-https://semihdurmus.github.io/Project_HC_04_Website_Page_Design/
+https://semihdurmus.github.io/HC_04_Website_Page_Design/
  
 ## Description
 Project aims to create website site page.
